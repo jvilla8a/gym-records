@@ -1,0 +1,61 @@
+.sideBar {
+  width: 250px;
+  height: 100vh;
+  border-right: 1px solid WhiteSmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menuSection {
+  padding: 15px;
+}
+.menuSection h1 {
+  margin-bottom: 30px;
+}
+.menuSection ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menuSection ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: padding 0.5s, color 0.5s;
+  color: grey;
+}
+.menuSection ul li:hover {
+  background-color: WhiteSmoke;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+.menuSection ul li svg {
+  font-size: 20px;
+}
+
+.userInfo {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid WhiteSmoke;
+  margin: 0 auto;
+}
+.userInfo h2 {
+  font-size: 16px;
+}
+.userInfo div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: DarkOrange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
